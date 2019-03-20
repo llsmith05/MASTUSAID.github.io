@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+## MAST Overview
+This document is a guide to setting up a MAST server and mobile application instance from scratch. It is designed to be used in conjunction with the MAST Implementation Guide and serves as a technical manual for all the technology components that underlie the MAST platform. The intended audience is software developers, systems administrators, and other technical specialists.
 
-You can use the [editor on GitHub](https://github.com/MASTUSAID/MASTUSAID.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+It is assumed that the user has reasonable familiarity with Linux servers, Java applications, databases, and Android applications. Working knowledge of git and other tools will also be necessary. This guide makes extensive use of the Linux command line and assumes that the user has a Linux development environment available for use, though a Windows or OSX computer can certainly be used with some modifications.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MASTUSAID/MASTUSAID.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+A complete deployment of MAST requires, at a minimum, a server and enough Android devices to meet the project’s needs. The server can be a physical server or a cloud server, and this guide provides information for both use cases. Android devices may be mobile phones or tablets, but should run Android 4+ and have an onboard GPS unit with sufficient accuracy to map land parcels. For improved accuracy, it is recommended that you use an external GPS unit connected to the mobile device via Bluetooth or USB.
