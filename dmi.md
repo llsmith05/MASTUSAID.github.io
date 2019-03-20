@@ -1,4 +1,4 @@
-#Deploying the DMI
+# Deploying the DMI
 ## Hosting
 Before beginning MAST deployment, first consider what type of server hosting you will be using. MAST can either be run on a cloud server, like Amazon Web Services (AWS), or on a local, physical server. Either option is viable, and the decision rests on the purpose, environment, and longevity of the project.
 
